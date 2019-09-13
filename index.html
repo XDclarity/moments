@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>朋友圈</title>
+    <link rel="stylesheet" href="http://coding.imweb.io/demo/reset.css">
+    <!-- 页面样式 -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="mask"><img class="showImg" id="showImg" src=""></div>
+    <div class="page-moments">
+        <header class="header">
+            <div class="header-banner"><p class="userName">XDclarity</p></div>
+            <div class="header-user">
+                <span class="user-name"></span>
+                <a class="user-link" href="#"><img src="./img/avatar1.png" width="70" height="70" alt=""></a>
+            </div>
+        </header>
+        <div class="moments-list">
+
+            <!-- 消息内容 -->
+            <div class="moments-item" data-index="0">
+                <a class="item-left" href="#">
+                    <img src="./img/avatar2.png"" width="42" height="42" alt=""/>
+                </a>
+                <div class="item-right">
+                    <a href="#" class="item-name">椰汁糕</a>
+                    <p class="item-msg">猫主子美照四张~</p>
+                    <ul class="item-pic">
+                        <img class="pic-item" src="./img/reward1.png">
+                        <img class="pic-item" src="./img/reward2.png">                     
+                        <img class="pic-item" src="./img/reward3.png">
+                        <img class="pic-item" src="./img/reward4.png">
+                    </ul>
+                    <div class="item-ft">
+                        <span class="item-time">10分钟前</span>
+                        <div class="item-reply-btn">
+                            <span class="item-reply"></span>
+                        </div>
+                    </div>
+                    <div class="reply-zone">
+                        <div class="reply-like">
+                            <i class="icon-like-blue"></i>
+                            <a href="#" class="reply-who">我点赞贼快</a>，<a href="#" class="reply-who">瓜瓜</a>
+                        </div>
+                        <div class="reply-comment">
+                            <div class="comment-item">
+                                <a class="reply-who" href="#">我点赞贼快</a>：也太可爱了吧！！！
+                            </div>
+                            <div class="comment-item">
+                                <a class="reply-who" href="#">阿喵</a>：awsl
+                            </div>
+                            <div class="comment-item">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        </div>
+    </div>
+    <!-- 引入jQuery -->
+    <script src="https://7.url.cn/edu/jslib/jquery/1.9.1/jquery.min.js"></script>
+    <!-- 页面逻辑代码 -->
+    <script src="./app.js"></script>
+</body>
+</html>

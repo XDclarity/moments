@@ -2,10 +2,16 @@
 
 文件：
 ./index.html 页面 HTML 
+
 ./style.css 样式
+
 ./app.js 页面逻辑 页面数据变量data
+
 ./img 存放图片
+
 ./readme.md 项目说明文档
+
+
 
 实现了四种消息类型：
 多图片消息
